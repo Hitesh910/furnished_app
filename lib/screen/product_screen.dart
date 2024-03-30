@@ -28,7 +28,7 @@ class _ProductScreenState extends State<ProductScreen> {
                   ClipRRect(
                     borderRadius:
                         const BorderRadius.only(bottomLeft: Radius.circular(80)),
-                    child: Image.network("${m1['image']}",
+                    child: Image.asset("${m1['image']}",
                         height: 900, width: MediaQuery.sizeOf(context).width),
                   ),
                   Padding(
